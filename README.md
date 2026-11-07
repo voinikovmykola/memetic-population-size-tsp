@@ -105,7 +105,7 @@ If you use this code or data, please cite this archive (metadata in
 
 > Voinikov, M. (2026). _Population size and local-search intensity in a
 > memetic genetic algorithm for the TSP: code and data_ (Version 1.0.0)
-> [Software]. Zenodo.
+> [Software]. Zenodo. https://doi.org/10.5281/zenodo.24044880
 
 Cite the DOI of this version rather than the concept DOI, which always
 resolves to the latest version.
