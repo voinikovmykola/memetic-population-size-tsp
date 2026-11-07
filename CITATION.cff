@@ -1,0 +1,33 @@
+# After the theses are published, add them under preferred-citation.
+cff-version: 1.2.0
+title: >-
+  Population size and local-search intensity in a memetic genetic algorithm
+  for the TSP: code and data
+message: If you use this code or data, please cite this archived release.
+type: software
+authors:
+  - given-names: Mykola
+    family-names: Voinikov
+    orcid: https://orcid.org/0000-0001-7961-5312
+    affiliation: V. N. Karazin Kharkiv National University
+abstract: >-
+  Code and measurements for a study of how population size interacts with
+  local-search intensity and the evaluation budget in a memetic genetic
+  algorithm on the TSPLIB95 instance d493. Contains the sweep driver, the
+  iterated-local-search control, 1152 records from 288 genetic-algorithm runs
+  and 40 records from 10 control runs, and the scripts that reproduce the
+  three figures.
+keywords:
+  - memetic algorithm
+  - genetic algorithm
+  - population size
+  - local search
+  - 2-opt
+  - travelling salesman problem
+  - computational budget
+repository-code: https://github.com/voinikovmykola/memetic-population-size-tsp
+license:
+  - MIT
+  - CC-BY-4.0
+version: 1.0.0
+date-released: 2026-11-07

@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# The TSPLIB instance keeps its own terms and is not redistributed.
+*.tsp
+
+# Reruns; the archived results are in data/ and figures/.
+results/
+*.tmp
+
+# Machine-specific or private files.
+local/
