@@ -98,14 +98,21 @@ The ILS control shows that the population component is not redundant under these
 settings. It is a control, not a tuned reference implementation, and no claim is
 made against specialised TSP solvers.
 
+## Versions
+
+- 1.0.1 (10.5281/zenodo.24045084): `data/ils_runs.csv` is stored with its
+  original CRLF line endings, so it matches `SHA256SUMS.txt`. In 1.0.0 the file
+  had LF line endings and failed that check; the data values are identical.
+- 1.0.0 (10.5281/zenodo.24044880): first release.
+
 ## Citation
 
 If you use this code or data, please cite this archive (metadata in
 `CITATION.cff`):
 
 > Voinikov, M. (2026). _Population size and local-search intensity in a
-> memetic genetic algorithm for the TSP: code and data_ (Version 1.0.0)
-> [Software]. Zenodo. https://doi.org/10.5281/zenodo.24044880
+> memetic genetic algorithm for the TSP: code and data_ (Version 1.0.1)
+> [Software]. Zenodo. https://doi.org/10.5281/zenodo.24045084
 
 Cite the DOI of this version rather than the concept DOI, which always
 resolves to the latest version.
