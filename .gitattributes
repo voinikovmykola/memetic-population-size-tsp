@@ -1,0 +1,2 @@
+# Store data files byte for byte; SHA256SUMS.txt covers the exact bytes.
+*.csv -text
